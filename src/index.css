@@ -1,13 +1,84 @@
+/*** Default styles ***/
+
+html,
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    font-smoothing: antialiased;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+    font-family: 'Hind', sans-serif;
+    font-size: 15px;
+    line-height: 1.75em;
+    font-weight: 400;
+    color: #777;
+}
+
+/*** typography ***/
+
+
+/* headings */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #101010;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    line-height: 1.5em;
+    margin: 0 0 20px 0;
+}
+
+
+/* paragraph */
+
+p {
+    font-family: 'Hind', sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+    margin: 0 0 20px;
+    color: #6b6b6b;
+}
+
+
+/* lists */
+
+ul {
+    list-style-type: none;
+}
+
+
+/* links */
+
+a {
+    color: #101010;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #101010;
+    outline: none;
+    text-decoration: none !important;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:focus {
+    outline: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
 }
