@@ -1,6 +1,6 @@
 .footer-wrapper {
-	float: left;
-    width: 100%;
+	float: right;
+    width: 77%;
     box-sizing: border-box;
 	padding: 120px 60px;
     background: #f6f6f6;
@@ -40,8 +40,7 @@
 .footer-wrapper .footer-item ul li {
     display: inline;
     margin: 0 5px;
-    justify-content: cen
-}
+ }
 
 .footer-wrapper .footer-item ul li a {
     display: inline-block;

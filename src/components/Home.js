@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import Swiper from 'react-id-swiper';
-import Footer from './Footer'
 import 'swiper/css/swiper.css'
 import SlideOne from '../assets/img/slide-01.jpg';
 import SlideTwo from '../assets/img/slide-02.jpg';
@@ -24,7 +23,7 @@ class Home extends Component {
       		}
 		}
 		return(
-			<div className="home-wrapper">
+			<div className="section-wrapper">
 				<Swiper {...params}>
 				    <div style={{'backgroundImage': `url(${SlideOne})`}}>
 				    	<div className="slider-title-wrapper">
@@ -48,7 +47,6 @@ class Home extends Component {
 						<h2>Recent projects</h2>
 					</div>
 				</div>
-				<Footer />
 			</div>
 		)
 	}
