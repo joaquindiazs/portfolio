@@ -1,5 +1,9 @@
 /*** Default styles ***/
 
+html:root {
+    --swiper-theme-color: rgba(0, 0, 0, 0.53);
+}
+
 html,
 body {
     margin: 0;
