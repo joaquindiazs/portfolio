@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import AboutUs from "../assets/img/about.jpg";
+import ProfileOne from "../assets/img/profile-01.jpg";
+import ProfileTwo from "../assets/img/profile-02.jpg";
 import "./About.css";
 
 class About extends Component {
@@ -16,28 +18,75 @@ class About extends Component {
 							<img src={AboutUs} alt="" />
 						</div>
 						<div className="about-description">
-							<h2>Innovative Group</h2>
+							<h2>Be Innovative</h2>
 							<p>
-								Yuroin non lorem ac erat suscipit bibendum.
-								Nulla facilisi. Sedeuter nunte volutpat, mollis
-								sapien vel, conseyer turpeutionyer massa in
-								libero sempe. Fusceliton mollis augue sit amet
-								hendrerit vestibulum. Duiste yerionyer venenatis
-								lacus that where it came from iter.
+								I'm a professional mate, connected to the IT
+								environment since many years ago.
 							</p>
 							<p>
-								Fusce mollis augue sit amet hendrerit
-								vestibulum. Duisteyerionyer venenatis lacus
-								mollis augue sit amet hendrerit vestibulum.
+								As a person well organized person. My objectives
+								are keep growing up and stay always updated with
+								the best technologies.
 							</p>
 							<p>
-								Yuroin non lorem ac erat suscipit bibendum.
-								Nulla facilisi. Sedeuter nunte volutpat, mollis
-								sapien vel, conseyer turpeutionyer massa in
-								libero sempe. Fusceliton mollis augue sit amet
-								hendrerit vestibulum. Duiste yerionyer venenatis
-								lacus that where it came from iter.
+								Based in Kassel- Germany, as a full-stack
+								developer, I'm interested in working on ambitious
+								projects with positive people.
 							</p>
+						</div>
+					</div>
+					<div className="section-title">
+						<span>Colaborators</span>
+						<h2>Progresive Team</h2>
+					</div>
+					<div className="about-second-scroll">
+						<div className="profile-item">
+							<img src={ProfileOne} alt="" />
+							<div className="profile-description">
+								<h3>Joaquin Diaz</h3>
+								<span>Developer</span>
+								<ul>
+									<li>
+										<a href="#asdf" target="_blank">
+											<ion-icon name="logo-linkedin"></ion-icon>
+										</a>
+									</li>
+									<li>
+										<a href="#asdf" target="_blank">
+											<ion-icon name="logo-github"></ion-icon>
+										</a>
+									</li>
+									<li>
+										<a href="#asdf" target="_blank">
+											<ion-icon name="logo-instagram"></ion-icon>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div className="profile-item">
+							<img src={ProfileTwo} alt="" />
+							<div className="profile-description">
+								<h3>Camilo Vega</h3>
+								<span>Photographer</span>
+								<ul>
+									<li>
+										<a href="#asdf" target="_blank">
+											<ion-icon name="logo-linkedin"></ion-icon>
+										</a>
+									</li>
+									<li>
+										<a href="#asdf" target="_blank">
+											<ion-icon name="logo-github"></ion-icon>
+										</a>
+									</li>
+									<li>
+										<a href="#asdf" target="_blank">
+											<ion-icon name="logo-instagram"></ion-icon>
+										</a>
+									</li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>

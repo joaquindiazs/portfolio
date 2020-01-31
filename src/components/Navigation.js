@@ -15,10 +15,10 @@ class Navigation extends Component {
 			<Router>
 				<aside>
 					<h1 className="logo">
-						<a href="#asdf">
-							JDIAZS
+						<Link to={"/"}>
+							jdiazs
 							<span>INNOVATIVE GROUP</span>
-						</a>
+						</Link>
 					</h1>
 					<nav className="main-menu">
 						<ul>
