@@ -13,7 +13,7 @@ class About extends Component {
 						<span>Who I am</span>
 						<h2>About</h2>
 					</div>
-					<div className="about-first-scroll">
+					<div className="about-wrapper">
 						<div className="about-image">
 							<img src={AboutUs} alt="" />
 						</div>
@@ -24,13 +24,12 @@ class About extends Component {
 								environment since many years ago.
 							</p>
 							<p>
-								As a person well organized person. My objectives
+								As a well organized person. My objectives
 								are keep growing up and stay always updated with
 								the best technologies.
 							</p>
 							<p>
-								Based in Kassel- Germany, as a full-stack
-								developer, I'm interested in working on ambitious
+								Based in Kassel- Germany, I'm interested in working on ambitious
 								projects with positive people.
 							</p>
 						</div>
@@ -39,10 +38,10 @@ class About extends Component {
 						<span>Colaborators</span>
 						<h2>Progresive Team</h2>
 					</div>
-					<div className="about-second-scroll">
-						<div className="profile-item">
+					<div className="gallery-wrapper">
+						<div className="item-wrapper">
 							<img src={ProfileOne} alt="" />
-							<div className="profile-description">
+							<div className="item-description">
 								<h3>Joaquin Diaz</h3>
 								<span>Developer</span>
 								<ul>
@@ -64,9 +63,9 @@ class About extends Component {
 								</ul>
 							</div>
 						</div>
-						<div className="profile-item">
+						<div className="item-wrapper">
 							<img src={ProfileTwo} alt="" />
-							<div className="profile-description">
+							<div className="item-description">
 								<h3>Camilo Vega</h3>
 								<span>Photographer</span>
 								<ul>
