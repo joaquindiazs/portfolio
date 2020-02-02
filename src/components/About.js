@@ -34,6 +34,8 @@ class About extends Component {
 							</p>
 						</div>
 					</div>
+				</div>
+				<div className="block-wrapper">	
 					<div className="section-title">
 						<span>Colaborators</span>
 						<h2>Progresive Team</h2>
