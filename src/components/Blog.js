@@ -43,6 +43,38 @@ class Blog extends Component {
 										<ion-icon name="arrow-forward"></ion-icon>
 									</a>
 								</p>
+								<div class="clear"></div>
+							</div>
+							<div className="blog-content">
+								<div className="img-box">
+									<a href="#asdf">
+										<img src={BlogExampleImg} alt="" />
+									</a>
+								</div>
+								<span>
+									{" "}
+									Dec 20, 2018 | <a href="#asdf">Joaquin Diaz</a>
+								</span>
+								<h3>
+									<a href="#asdf">Another name of the post</a>
+								</h3>
+								<div className="blog-text">
+									<p>
+										Sedeuter nunc
+										volutpat, mollis sapien vel, conseyer
+										turpeutionyer masin libero semper.
+										Fusceler mollis augue sit amet hendrerit
+										vestibulum. Duisteyerionyer venenatis
+										lacus. Fusce mollis augu
+									</p>
+								</div>
+								<p>
+									<a href="#asdf" className="blog-link">
+										Read More{" "}
+										<ion-icon name="arrow-forward"></ion-icon>
+									</a>
+								</p>
+								<div class="clear"></div>
 							</div>
 						</div>
 						<div className="filter-content">

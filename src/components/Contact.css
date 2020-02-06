@@ -1,16 +1,16 @@
+/* For mobile resolution & default: */
+
 .contact-wrapper {
-	display: flex;
-    justify-content: center;
+	display: block;
 }
 
 .contact-content {
-	flex: 30%;
-	padding: 0 20px 0 0;
+	width: 100%;
 }
 
 .contact-form {
-	flex: 70%;
-	padding: 0 20px;
+	width: 100%;
+    padding-top: 20px;
 }
 
 .contact-wrapper div h3 {
@@ -88,4 +88,23 @@
     border-radius: 0;
     cursor: pointer;
     outline: none;
+}
+
+/* For desktop: */
+
+@media only screen and (min-width: 768px) {
+    .contact-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact-content {
+        flex: 30%;
+        padding: 0 20px 0 0;
+    }
+
+    .contact-form {
+        flex: 70%;
+        padding: 0 20px;
+    }   
 }

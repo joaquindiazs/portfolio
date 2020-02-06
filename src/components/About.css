@@ -1,20 +1,13 @@
-.about-wrapper {
-	display: flex;
-    justify-content: center;
-}
+/* For mobile resolution & default: */
 
-.about-image {
-	flex: 50%;
+.about-wrapper {
+	display: block;
+    justify-content: center;
 }
 
 .about-image img {
 	width: 100%;
 	height: auto;
-}
-   
-.about-description {
-	padding: 0 15px;
-	flex: 50%;
 }
 
 .about-description h2 {
@@ -23,4 +16,21 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 24px;
+}
+
+/* For desktop: */
+
+@media only screen and (min-width: 768px) {
+	.about-wrapper {
+		display: flex;
+	}	
+
+	.about-image {
+		flex: 50%;
+	}
+
+	.about-description {
+		padding: 0 15px;
+		flex: 50%;
+	}
 }

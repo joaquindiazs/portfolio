@@ -13,43 +13,49 @@ class Services extends Component {
 					</div>
 					<div className="services-wrapper">
 						<div className="services-content">
-							<ion-icon name="code-working"></ion-icon>
-							<div className="services-description">
-								<h3>Web Development</h3>
-								<ul>
-									<li>Fullstack technologies</li>
-									<li>Responsive Websites</li>
-									<li>Native Applications</li>
-								</ul>
+							<div className="service-item">
+								<ion-icon name="code-working"></ion-icon>
+								<h3>Web App</h3>
+								<div className="services-description">
+									<ul>
+										<li>Fullstack</li>
+										<li>Responsive</li>
+										<li>Native apps</li>
+									</ul>
+								</div>
 							</div>
-							<ion-icon name="cloud-upload"></ion-icon>
-							<div className="services-description">
+							<div className="service-item">
+								<ion-icon name="cloud-upload"></ion-icon>
 								<h3>Hosting</h3>
-								<ul>
-									<li>IaaS</li>
-									<li>PaaS</li>
-									<li>Email Hosting</li>
-								</ul>
+								<div className="services-description">
+									<ul>
+										<li>IaaS</li>
+										<li>PaaS</li>
+										<li>Email Hosting</li>
+									</ul>
+								</div>
 							</div>
-							<ion-icon name="code"></ion-icon>
-							<div className="services-description">
-								<h3>Photography</h3>
-								<ul>
-									<li>Websites</li>
-									<li>Saraza</li>
-									<li>Cactus</li>
-									<li>Paranoid android</li>
-								</ul>
+							<div className="service-item">
+								<ion-icon name="create"></ion-icon>
+								<h3>Design</h3>
+								<div className="services-description">
+									<ul>
+										<li>Branding</li>
+										<li>Layouts</li>
+										<li>Photography</li>
+									</ul>
+								</div>
 							</div>
-							<ion-icon name="code"></ion-icon>
-							<div className="services-description">
+							<div className="service-item">
+								<ion-icon name="tv"></ion-icon>
 								<h3>Art Digital</h3>
-								<ul>
-									<li>Websites</li>
-									<li>Saraza</li>
-									<li>Cactus</li>
-									<li>Paranoid android</li>
-								</ul>
+								<div className="services-description">
+									<ul>
+										<li>Animation</li>
+										<li>Modeling</li>
+										<li>Sculpting</li>
+									</ul>
+								</div>
 							</div>
 						</div>
 						<div className="services-image">

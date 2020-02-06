@@ -1,13 +1,18 @@
+/* For mobile resolution & default: */
+
 .blog-wrapper {
-	display: flex;
-    justify-content: center;
+    display: block;
 }
 
-.blog-wrapper .blog-gallery  {
-	flex: 70%;
-	display: flex;
-	flex-wrap: wrap;
-    padding-right: 25px;
+.blog-wrapper .blog-gallery {
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.blog-content {
+    border-top: 1px solid #f6f6f6;
+    padding-top: 10px;
+    margin-top: 20px;
 }
 
 .blog-content .img-box {
@@ -15,8 +20,8 @@
 }
 
 .blog-content .img-box img {
-	max-width: 100%;
-    transition: all .5s;
+    max-width: 100%;
+    transition: all 0.5s;
     width: 100%;
     height: auto;
     transform: scale(1);
@@ -38,33 +43,33 @@
 }
 
 .blog-content h3 {
-	color: #101010;
+    color: #101010;
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 24px;
 }
 
 .blog-content .blog-text {
-	text-align: left;
+    text-align: left;
     float: left;
     width: 100%;
 }
 
 .blog-content .blog-link {
-	margin-top: 10px;
+    margin-top: 10px;
     float: left;
     width: 100%;
     font-size: 14px;
     color: #101010;
     font-weight: 600;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 /*** Filter Sidebar Section ***/
 
 .blog-wrapper .filter-content {
-	flex: 30%;
+    width: 100%;
 }
 
 .filter-content .filter-sidebar-block {
@@ -102,7 +107,7 @@
 .filter-content .filter-sidebar-block .filter-sidebar-title {
     color: #101010;
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 22px;
     margin-bottom: 18px;
@@ -121,7 +126,6 @@
     width: 100%;
     float: left;
 }
-
 
 .filter-content .filter-sidebar-block ul li a {
     color: #6b6b6b;
@@ -153,7 +157,7 @@
     font-size: 13px;
 }
 
-.filter-content .filter-sidebar-block .filter-tags a {   
+.filter-content .filter-sidebar-block .filter-tags a {
     margin: 0 5px 5px 0px;
     float: left;
     display: inline-block;
@@ -164,7 +168,7 @@
     -moz-border-radius: 0px;
     -webkit-border-radius: 0px;
     text-decoration: none;
-    font-size: 12px!important;
+    font-size: 12px !important;
     color: #6b6b6b;
     transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
@@ -176,4 +180,27 @@
     background: #101010;
     color: #fff;
     border-color: #101010;
+}
+
+/* For desktop: */
+
+@media only screen and (min-width: 768px) {
+    .blog-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .blog-wrapper .blog-gallery {
+        flex: 70%;
+        padding-right: 25px;
+    }
+
+    .blog-content {
+        border-top: none;
+        padding-bottom: 30px;
+    }
+
+    .blog-wrapper .filter-content {
+        flex: 30%;
+    }
 }
