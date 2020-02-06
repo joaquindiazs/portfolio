@@ -18,17 +18,17 @@ class Footer extends Component {
 				<div className="footer-item">
 					<ul>
 						<li>
-							<a href="#asdf" target="_blank">
+							<a href="https://www.linkedin.com/in/joaqu%C3%ADn-d%C3%ADaz-schillagi-741354124/" target="_blank" rel="noopener noreferrer">
 								<ion-icon name="logo-linkedin"></ion-icon>
 							</a>
 						</li>
 						<li>
-							<a href="#asdf" target="_blank">
+							<a href="#asdf" target="_blank" rel="noopener noreferrer">
 								<ion-icon name="logo-github"></ion-icon>
 							</a>
 						</li>
 						<li>
-							<a href="#asdf" target="_blank">
+							<a href="#asdf" target="_blank" rel="noopener noreferrer">
 								<ion-icon name="logo-instagram"></ion-icon>
 							</a>
 						</li>

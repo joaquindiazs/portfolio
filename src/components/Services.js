@@ -33,7 +33,7 @@ class Services extends Component {
 							</div>
 							<ion-icon name="code"></ion-icon>
 							<div className="services-description">
-								<h3>Web App</h3>
+								<h3>Photography</h3>
 								<ul>
 									<li>Websites</li>
 									<li>Saraza</li>
@@ -43,7 +43,7 @@ class Services extends Component {
 							</div>
 							<ion-icon name="code"></ion-icon>
 							<div className="services-description">
-								<h3>Web App</h3>
+								<h3>Art Digital</h3>
 								<ul>
 									<li>Websites</li>
 									<li>Saraza</li>
