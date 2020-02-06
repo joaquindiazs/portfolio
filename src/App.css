@@ -4,9 +4,10 @@
 
 /*** GLOBAL CLASSES ***/
 
+/* For mobile resolution & default: */
+
 .section-wrapper {
-    width: 77%;
-    float: right;
+    width: 100%;
     box-sizing: border-box;
 }
 
@@ -42,12 +43,12 @@
 /*** Gallery flexbox grid ***/
 
 .gallery-wrapper {
-    display: flex;
-    flex-wrap: wrap;
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
 }
 
 .item-wrapper {
-      width: calc(50% - 30px);
+      width: 100%;
       position: relative;
       padding: 0 30px 20px 0;
 }
@@ -98,4 +99,23 @@
     margin: 0 auto;
     font-size: 25px;
     color: #FFF;
+}
+
+/* For desktop: */
+
+@media only screen and (min-width: 768px) {
+    .section-wrapper {
+        width: 77%;
+        float: right;
+        box-sizing: border-box;
+    }
+
+    .gallery-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .item-wrapper {
+      width: calc(50% - 30px);
+    }
 }

@@ -1,4 +1,7 @@
+/* For mobile resolution & default: */
+
 aside {
+    display: none;
     padding: 60px 0;
     width: 23%;
     position: fixed;
@@ -133,4 +136,12 @@ aside .logo a span {
 
 .navigation-footer-wrapper p small {
     font-size: 85%;
+}
+
+/* For desktop: */
+
+@media only screen and (min-width: 768px) {
+    aside {
+        display: block;
+    }
 }

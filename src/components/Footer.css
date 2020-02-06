@@ -1,19 +1,38 @@
+/* For mobile phones: */
+
 .footer-wrapper {
 	float: right;
-    width: 77%;
+    width: 100%;
     box-sizing: border-box;
-	padding: 120px 60px;
     background: #f6f6f6;
-    display: flex;
     align-items: center;
     justify-content: center;
+    padding: 60px 30px 30px;
 }
 
 .footer-wrapper .footer-item {
-	width: 33%;
+    width: 100%;
     text-align: center;
-    padding: 0 30px;
+    padding-bottom: 20px; 
 }
+
+/* For desktop: */
+
+@media only screen and (min-width: 768px) {
+    .footer-wrapper {
+        width: 77%;
+        display: flex;
+	    padding: 100px 60px 0;
+    }
+
+    .footer-wrapper .footer-item {
+        width: 33%;
+        text-align: center;
+        padding: 0 30px;
+    }
+}
+
+/* For all resolutions: */
 
 .footer-wrapper .footer-item h2 {
     color: #101010;
