@@ -1,0 +1,91 @@
+.contact-wrapper {
+	display: flex;
+    justify-content: center;
+}
+
+.contact-content {
+	flex: 30%;
+	padding: 0 20px 0 0;
+}
+
+.contact-form {
+	flex: 70%;
+	padding: 0 20px;
+}
+
+.contact-wrapper div h3 {
+    color: #101010;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.contact-form form p label{
+    text-align: left;
+    color: #666;
+    width: 100%;
+    font-size: 13px;
+    float: left;
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+
+.contact-form form p label span {
+    position: inherit;
+}
+
+.contact-form form p label span input {
+    max-width: 100%;
+    margin-bottom: 15px;
+    border-color: #ececec;
+    padding: 18px 0px 10px;
+    height: auto;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-width: 0 0 1px;
+    border-style: solid;
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.5em;
+    font-weight: 300;
+    color: #101010;
+    border-bottom: 1px solid #ececec;
+    border-color: ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.contact-form form p label span textarea {	
+    max-width: 100%;
+    margin-bottom: 15px;
+    border-color: #ececec;
+    padding: 18px 0px 10px;
+    height: auto;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-width: 0 0 1px;
+    border-style: solid;
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.5em;
+    font-weight: 300;
+    color: #101010;
+    border-bottom: 1px solid #ececec;
+    border-color: ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.contact-form form p input[type=submit] {
+    text-shadow: none;
+    padding: 9px 20px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-weight: 300;
+    border: none;
+    color: #fff;
+    background-color: #101010;
+    margin-top: 10px;
+    font-family: 'Hind', sans-serif;
+    font-size: 14px;
+    line-height: 1.75;
+    border-radius: 0;
+    cursor: pointer;
+    outline: none;
+}
