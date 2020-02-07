@@ -17,7 +17,7 @@ class Navigation extends Component {
 					<h1 className="logo">
 						<Link to={"/"}>
 							jdiazs
-							<span>INNOVATIVE GROUP</span>
+							<span>From The Basement</span>
 						</Link>
 					</h1>
 					<nav className="main-menu">
@@ -52,6 +52,11 @@ class Navigation extends Component {
 							<li>
 								<a href="#asdf" target="_blank" rel="noopener noreferrer">
 									<ion-icon name="logo-github"></ion-icon>
+								</a>
+							</li>
+							<li>
+								<a href="https://codepen.io/jdiazs" target="_blank" rel="noopener noreferrer">
+									<ion-icon name="logo-codepen"></ion-icon>
 								</a>
 							</li>
 							<li>

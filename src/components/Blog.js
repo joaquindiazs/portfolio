@@ -43,7 +43,7 @@ class Blog extends Component {
 										<ion-icon name="arrow-forward"></ion-icon>
 									</a>
 								</p>
-								<div class="clear"></div>
+								<div className="clear"></div>
 							</div>
 							<div className="blog-content">
 								<div className="img-box">

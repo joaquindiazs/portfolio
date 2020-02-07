@@ -18,27 +18,28 @@ class About extends Component {
 							<img src={AboutUs} alt="" />
 						</div>
 						<div className="about-description">
-							<h2>Be Innovative</h2>
+							<h2>Be Recreative</h2>
 							<p>
-								I'm a professional mate, connected to the IT
-								environment since many years ago.
+								I'm a professional mate from Mendoza - Argentina, connected to the IT environment since many
+								years ago.
 							</p>
 							<p>
-								As a well organized person. My objectives
-								are keep growing up and stay always updated with
-								the best technologies.
+								As a well organized person. My objectives are
+								keep growing up, learning new things of interest and stay always updated with the
+								best technologies.
 							</p>
 							<p>
-								Based in Kassel- Germany, I'm interested in working on ambitious
-								projects with positive people.
+								Based in Kassel- Germany, I'm interested in
+								working on ambitious projects with positive
+								people.
 							</p>
 						</div>
 					</div>
 				</div>
-				<div className="block-wrapper">	
+				<div className="block-wrapper">
 					<div className="section-title">
-						<span>Colaborators</span>
-						<h2>Progresive Team</h2>
+						<span>Know more</span>
+						<h2>Colaborators</h2>
 					</div>
 					<div className="gallery-wrapper">
 						<div className="item-wrapper">
@@ -55,6 +56,11 @@ class About extends Component {
 									<li>
 										<a href="#asdf" target="_blank">
 											<ion-icon name="logo-github"></ion-icon>
+										</a>
+									</li>
+									<li>
+										<a href="https://codepen.io/jdiazs" target="_blank" rel="noopener noreferrer">
+											<ion-icon name="logo-codepen"></ion-icon>
 										</a>
 									</li>
 									<li>

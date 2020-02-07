@@ -28,6 +28,11 @@ class Footer extends Component {
 							</a>
 						</li>
 						<li>
+								<a href="https://codepen.io/jdiazs" target="_blank" rel="noopener noreferrer">
+									<ion-icon name="logo-codepen"></ion-icon>
+								</a>
+							</li>
+						<li>
 							<a href="#asdf" target="_blank" rel="noopener noreferrer">
 								<ion-icon name="logo-instagram"></ion-icon>
 							</a>

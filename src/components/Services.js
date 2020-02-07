@@ -8,7 +8,7 @@ class Services extends Component {
 			<div className="section-wrapper">
 				<div className="block-wrapper">
 					<div className="section-title">
-						<span>What I do</span>
+						<span>What I learned</span>
 						<h2>Services</h2>
 					</div>
 					<div className="services-wrapper">

@@ -7,7 +7,7 @@ class Projects extends Component {
 			<div className="section-wrapper">
 				<div className="block-wrapper">
 					<div className="section-title">
-						<span>Take a look at</span>
+						<span>Take a look through</span>
 						<h2>My Projects</h2>
 					</div>
 					<div className="gallery-wrapper">
