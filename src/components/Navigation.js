@@ -13,7 +13,7 @@ class Navigation extends Component {
 	render() {
 		return (
 			<Router>
-				<aside>
+				<aside className={this.props.className}>
 					<h1 className="logo">
 						<Link to={"/"}>
 							jdiazs

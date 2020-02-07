@@ -1,11 +1,58 @@
+.ham {
+    z-index: 3;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.53);
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    transition: transform 500ms;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: 500ms;
+}
+
+.ham.active {
+    left: 285px;
+}
+
+.hamRotate.active {
+    transform: rotate(45deg);
+}
+.hamRotate180.active {
+    transform: rotate(180deg);
+}
+.line {
+    fill: none;
+    transition: stroke-dasharray 500ms, stroke-dashoffset 500ms;
+    stroke: #fff;
+    stroke-width: 3.5;
+    stroke-linecap: square;
+}
+
+.ham2 .top {
+    stroke-dasharray: 40 121;
+}
+.ham2 .bottom {
+    stroke-dasharray: 40 121;
+}
+.ham2.active .top {
+    stroke-dashoffset: -102px;
+}
+.ham2.active .bottom {
+    stroke-dashoffset: -102px;
+}
+
 /*** GLOBAL CLASSES ***/
 
 /* For mobile resolution & default: */
 
 .main-page-wrapper {
-	width: 100%;
+    width: 100%;
 }
-
 
 .section-wrapper {
     width: 100%;
@@ -27,7 +74,7 @@
 
 .section-title span {
     display: block;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     font-size: 12px;
     color: #777;
     font-weight: 400;
@@ -49,9 +96,9 @@
 }
 
 .item-wrapper {
-      width: 100%;
-      position: relative;
-      padding: 0 30px 20px 0;
+    width: 100%;
+    position: relative;
+    padding: 0 30px 20px 0;
 }
 
 .item-wrapper .item-description {
@@ -62,25 +109,29 @@
     right: 0;
     margin: 0 30px 30px 0;
     padding: 30px;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0,0,0,0));
+    background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0)
+    );
     transition: 0.3s;
-    opacity: 0; 
+    opacity: 0;
 }
 
 .item-wrapper .item-description:hover {
-    opacity: 1; 
+    opacity: 1;
 }
 
 .item-wrapper .item-description h3 {
     font-size: 20px;
     color: #fff;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 600;
 }
 
 .item-wrapper .item-description span {
     display: block;
-    color: #FFF;
+    color: #fff;
     font-size: 16px;
     font-weight: 400;
 }
@@ -99,7 +150,7 @@
     position: relative;
     margin: 0 auto;
     font-size: 25px;
-    color: #FFF;
+    color: #fff;
 }
 
 .clear {
@@ -109,6 +160,9 @@
 /* For desktop: */
 
 @media only screen and (min-width: 768px) {
+    .ham {
+        display: none;
+    }
     .section-wrapper {
         width: 77%;
         float: right;
@@ -121,6 +175,6 @@
     }
 
     .item-wrapper {
-      width: calc(50% - 30px);
+        width: calc(50% - 30px);
     }
 }

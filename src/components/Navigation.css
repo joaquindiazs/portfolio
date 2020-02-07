@@ -1,20 +1,30 @@
 /* For mobile resolution & default: */
 
 aside {
-    display: none;
+    z-index: 2;
+    display: block;
+    opacity: 0;
+    visibility: hidden;
     padding: 60px 0;
-    width: 23%;
+    max-width: 270px;
+    width: 100%;
     position: fixed;
     bottom: 0;
     top: 0;
     left: 0;
     overflow-y: hidden;
     background: #101010;
+    transition: visibility 0s, opacity 0.5s linear;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
     -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+}
+
+.visible {
+    visibility: visible;
+    opacity: 1;
 }
 
 .logo {
@@ -142,6 +152,8 @@ aside .logo a span {
 
 @media only screen and (min-width: 768px) {
     aside {
-        display: block;
+        visibility: visible;
+        opacity: 1;
+        width: 23%;
     }
 }

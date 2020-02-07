@@ -1,4 +1,4 @@
-/* For mobile phones: */
+/* For mobile resolution & default: */
 
 .footer-wrapper {
 	float: right;
@@ -15,24 +15,6 @@
     text-align: center;
     padding-bottom: 20px; 
 }
-
-/* For desktop: */
-
-@media only screen and (min-width: 768px) {
-    .footer-wrapper {
-        width: 77%;
-        display: flex;
-	    padding: 100px 60px 0;
-    }
-
-    .footer-wrapper .footer-item {
-        width: 33%;
-        text-align: center;
-        padding: 0 30px;
-    }
-}
-
-/* For all resolutions: */
 
 .footer-wrapper .footer-item h2 {
     color: #101010;
@@ -65,4 +47,20 @@
     margin: 0 auto;
     font-size: 20px;
     color: #5a5a5a;
+}
+
+/* For desktop: */
+
+@media only screen and (min-width: 768px) {
+    .footer-wrapper {
+        width: 77%;
+        display: flex;
+        padding: 100px 60px;
+    }
+
+    .footer-wrapper .footer-item {
+        width: 33%;
+        text-align: center;
+        padding: 0 30px;
+    }
 }
