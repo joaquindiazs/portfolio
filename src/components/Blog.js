@@ -36,6 +36,14 @@ class Blog extends Component {
 										vestibulum. Duisteyerionyer venenatis
 										lacus. Fusce mollis augu
 									</p>
+									{/*
+									<pre>
+										<code>
+											&lt;div&gt;
+											&lt;/div&gt;
+									  	</code>
+									</pre>
+									*/}
 								</div>
 								<p>
 									<a href="#asdf" className="blog-link">
