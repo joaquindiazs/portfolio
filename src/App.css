@@ -143,6 +143,10 @@
     color: #fff;
     font-size: 16px;
     font-weight: 400;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .item-wrapper .item-description ul {

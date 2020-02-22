@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import "./Projects.css";
 
 class Projects extends Component {
@@ -40,7 +41,6 @@ class Projects extends Component {
 		} else if (!isLoaded) {
 			return <div>Loading...</div>;
 		} else {
-			console.log(projects)
 			return (
 				<div className="section-wrapper">
 					<div className="block-wrapper">
@@ -49,14 +49,14 @@ class Projects extends Component {
 							<h2>My Projects</h2>
 						</div>
 						<div className="gallery-wrapper">
-							{projects.map(project => (
-								<div className="item-wrapper">
+							{projects.map((project, i) => (
+								<div className="item-wrapper" key={i}>
 									<img src={project.url} alt="text" />
 									<div className="item-description">
-										<a href="#a1">
-											<h3>{ project.name }</h3>
-											<span>{ project.description }</span>
-										</a>
+										<Link to={`/projects/${project.project_id}`}>
+											<h3>{project.name}</h3>
+											<span>{new Date(project.created_at).toDateString()}</span>
+										</Link>
 									</div>
 								</div>
 							))}
