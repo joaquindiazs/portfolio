@@ -48,6 +48,14 @@ class Projects extends Component {
 							<span>Take a look through</span>
 							<h2>My Projects</h2>
 						</div>
+						{/*
+							<div className="categories-wrapper">
+									<Link to={"/projects"} className="category-filter">Software Development</Link>
+									<Link to={"/projects"} className="category-filter">Hosting</Link>
+									<Link to={"/projects"} className="category-filter">Design</Link>
+									<Link to={"/projects"} className="category-filter">Digital Art</Link>
+							</div>
+						*/}
 						<div className="gallery-wrapper">
 							{projects.map((project, i) => (
 								<div className="item-wrapper" key={i}>

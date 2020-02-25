@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import Swiper from "react-id-swiper";
 import "swiper/css/swiper.css";
 import SlideOne from "../assets/img/slide-01.jpg";
@@ -88,10 +89,10 @@ class Home extends Component {
 								<div className="item-wrapper" key={i}>
 									<img src={project.url} alt="text" />
 									<div className="item-description">
-										<a href="#a1">
+										<Link to={`/projects/${project.project_id}`}>
 											<h3>{ project.name }</h3>
-											<span>{ project.description }</span>
-										</a>
+											<span>{new Date(project.created_at).toDateString()}</span>
+										</Link>
 									</div>
 								</div>
 							))}

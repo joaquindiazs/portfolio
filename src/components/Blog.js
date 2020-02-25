@@ -137,7 +137,7 @@ class Blog extends Component {
 									</li>
 									<li>
 										<a className="latest-posts" href="#asdf">
-											El arte de fumar porro
+											El arte craftear
 										</a>
 										<span>
 											June 9, 2019

@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import ServicesImg from "../assets/img/services.jpg";
 import "./Services.css";
 
@@ -68,7 +69,7 @@ class Services extends Component {
 										<ul>
 											<li>IaaS</li>
 											<li>PaaS</li>
-											<li>Email Hosting</li>
+											<li>CaaS</li>
 										</ul>
 									</div>
 								</div>
@@ -77,7 +78,7 @@ class Services extends Component {
 									<h3>Design</h3>
 									<div className="services-description">
 										<ul>
-											<li>Branding</li>
+											<li>Mock-up</li>
 											<li>Layouts</li>
 											<li>Photography</li>
 										</ul>
@@ -85,12 +86,12 @@ class Services extends Component {
 								</div>
 								<div className="service-item">
 									<ion-icon name="tv"></ion-icon>
-									<h3>Art Digital</h3>
+									<h3>SEO</h3>
 									<div className="services-description">
 										<ul>
-											<li>Animation</li>
-											<li>Modeling</li>
-											<li>Sculpting</li>
+											<li>Best Practices</li>
+											<li>Analytics</li>
+											<li>E-Mail Marketing</li>
 										</ul>
 									</div>
 								</div>
@@ -110,10 +111,10 @@ class Services extends Component {
 								<div className="item-wrapper" key={i}>
 									<img src={project.url} alt="text" />
 									<div className="item-description">
-										<a href="#a1">
+										<Link to={`/projects/${project.project_id}`}>
 											<h3>{ project.name }</h3>
-											<span>{ project.description }</span>
-										</a>
+											<span>{new Date(project.created_at).toDateString()}</span>
+										</Link>
 									</div>
 								</div>
 							))}

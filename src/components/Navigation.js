@@ -35,9 +35,11 @@ class Navigation extends Component {
 							<li>
 								<Link to={"/services"}>Services</Link>
 							</li>
+							{/*
 							<li>
 								<Link to={"/blog"}>Blog</Link>
 							</li>
+							*/}
 							<li>
 								<Link to={"/contact"}>Contact</Link>
 							</li>
@@ -56,7 +58,7 @@ class Navigation extends Component {
 							</li>
 							<li>
 								<a
-									href="#asdf"
+									href="https://github.com/joaquindiazs"
 									target="_blank"
 									rel="noopener noreferrer"
 								>
@@ -74,7 +76,7 @@ class Navigation extends Component {
 							</li>
 							<li>
 								<a
-									href="#asdf"
+									href="https://www.instagram.com/jdiazs.ar/"
 									target="_blank"
 									rel="noopener noreferrer"
 								>

@@ -3,6 +3,7 @@
 .about-wrapper {
 	display: block;
     justify-content: center;
+    margin-top: 20px
 }
 
 .about-image img {
@@ -11,11 +12,16 @@
 }
 
 .about-description h2 {
-    margin-top: 20px;
     color: #101010;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 24px;
+}
+
+.about-description h4 {
+	color: #101010;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 
 /* For desktop: */

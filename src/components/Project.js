@@ -71,7 +71,7 @@ class Project extends Component {
 										<b>Skills: </b>
 										{project.tags.map((tag, i) => (
 											<span className="tag-name" key={i}>
-												{tag.name}{project.tags.length === i+1? "": " -"}
+												{tag.name}{project.tags.length === i+1? "": " - "}
 											</span>
 										))}
 									</li>
@@ -79,7 +79,7 @@ class Project extends Component {
 										<b>Category: </b>
 										{project.categories.map((category, i) => (
 											<span className="category-name" key={i}>
-												{category.name}{project.categories.length === i+1? "": " -"}
+												{category.name}{project.categories.length === i+1? "": " - "}
 											</span>
 										))}
 									</li>

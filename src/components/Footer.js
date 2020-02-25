@@ -1,9 +1,9 @@
-import React, {Component} from 'react'
-import './Footer.css'
+import React, { Component } from "react";
+import "./Footer.css";
 
 class Footer extends Component {
-	render(){
-		return(
+	render() {
+		return (
 			<div className="footer-wrapper">
 				<div className="footer-item">
 					<p>
@@ -18,29 +18,45 @@ class Footer extends Component {
 				<div className="footer-item">
 					<ul>
 						<li>
-							<a href="https://www.linkedin.com/in/joaqu%C3%ADn-d%C3%ADaz-schillagi-741354124/" target="_blank" rel="noopener noreferrer">
+							<a
+								href="https://www.linkedin.com/in/joaqu%C3%ADn-d%C3%ADaz-schillagi-741354124/"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
 								<ion-icon name="logo-linkedin"></ion-icon>
 							</a>
 						</li>
 						<li>
-							<a href="#asdf" target="_blank" rel="noopener noreferrer">
+							<a
+								href="https://github.com/joaquindiazs"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
 								<ion-icon name="logo-github"></ion-icon>
 							</a>
 						</li>
 						<li>
-								<a href="https://codepen.io/jdiazs" target="_blank" rel="noopener noreferrer">
-									<ion-icon name="logo-codepen"></ion-icon>
-								</a>
-							</li>
+							<a
+								href="https://codepen.io/jdiazs"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<ion-icon name="logo-codepen"></ion-icon>
+							</a>
+						</li>
 						<li>
-							<a href="#asdf" target="_blank" rel="noopener noreferrer">
+							<a
+								href="https://www.instagram.com/jdiazs.ar/"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
 								<ion-icon name="logo-instagram"></ion-icon>
 							</a>
 						</li>
 					</ul>
 				</div>
 			</div>
-			)
+		);
 	}
 }
 
