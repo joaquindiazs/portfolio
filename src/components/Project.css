@@ -6,13 +6,12 @@
 }
 
 .project-wrapper .image-container {
-	background-color: #f1f1f1;
 	text-align: center;
 }
 
 .project-wrapper .image-container img {
-	width: auto;
-    height: 100%;
+	width: 100%;
+    height: auto;
 }
 
 .project-description span {
@@ -39,4 +38,17 @@
 
 .tag-name, .category-name {
 	font-size: 15px !important;
+}
+
+/* For desktop: */
+
+@media only screen and (min-width: 768px) {
+	.project-wrapper .image-container {
+		background-color: #f1f1f1;
+	}
+
+	.project-wrapper .image-container img {
+		width: auto;
+	    height: 100%;
+	}
 }
