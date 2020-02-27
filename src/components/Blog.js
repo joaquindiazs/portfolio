@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import BlogExampleImg from "../assets/img/blogexample.jpg";
 import "./Blog.css";
 
 class Blog extends Component {
@@ -16,8 +15,7 @@ class Blog extends Component {
 							<div className="blog-content">
 								<div className="img-box">
 									<a href="#asdf">
-										<img src={BlogExampleImg} alt="" />
-									</a>
+										</a>
 								</div>
 								<span>
 									{" "}
@@ -56,7 +54,6 @@ class Blog extends Component {
 							<div className="blog-content">
 								<div className="img-box">
 									<a href="#asdf">
-										<img src={BlogExampleImg} alt="" />
 									</a>
 								</div>
 								<span>

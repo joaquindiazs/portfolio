@@ -5,6 +5,16 @@
     justify-content: center;
 }
 
+.project-wrapper .image-container {
+	background-color: #f1f1f1;
+	text-align: center;
+}
+
+.project-wrapper .image-container img {
+	width: auto;
+    height: 100%;
+}
+
 .project-description span {
     margin: 12px 0;
     font-size: 13px;

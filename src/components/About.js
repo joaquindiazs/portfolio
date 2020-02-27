@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import AboutUs from "../assets/img/about.jpg";
-import ProfileOne from "../assets/img/profile-01.jpg";
-import ProfileTwo from "../assets/img/profile-02.jpg";
 import "./About.css";
 
 class About extends Component {
@@ -25,8 +23,9 @@ class About extends Component {
 								environment since many years.
 							</p>
 							<p>
-								Always willing to learn, improve, and work with
-								new technologies.
+								As a well organized person, my objectives are
+								keep growing up, learning new things of interest and stay always updated with the
+								best practices and technologies.
 							</p>
 							<p>
 								Based in Kassel- Germany, I'm interested in
@@ -49,9 +48,18 @@ class About extends Component {
 								Administrator of services and resources in the
 								cloud (AWS)
 							</p>
+							<h4>Personal Summary</h4>
+							<p>
+								Excellent communication and team working skills.
+								<br />
+								Great interaction with internal and external customers.
+								<br />
+								Always willing to learn, improve, and work with new technologies.
+							</p>
 						</div>
 					</div>
 				</div>
+				{/* 
 				<div className="block-wrapper">
 					<div className="section-title">
 						<span>Know more</span>
@@ -129,6 +137,8 @@ class About extends Component {
 						</div>
 					</div>
 				</div>
+				*/}
+				
 			</div>
 		);
 	}
