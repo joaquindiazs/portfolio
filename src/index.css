@@ -6,6 +6,8 @@ html:root {
 
 html,
 body {
+    max-width: 100%;
+    overflow-x: hidden;
     margin: 0;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;

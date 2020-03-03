@@ -23,9 +23,6 @@ class Contact extends Component {
 							<h3>
 								Contact Form
 							</h3>
-							<p>
-								I would like to hear about you
-							</p>
 							<form action="">
 								<p>
 									<label htmlFor="">

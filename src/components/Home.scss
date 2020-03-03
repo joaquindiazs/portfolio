@@ -18,6 +18,29 @@
     bottom: 30px;
 }
 
+.home-logo {
+    display: none;
+}
+
+.box-cell-1 {
+    position: absolute;
+    border: solid 2px #5AF042;
+    border-top: none;
+    width: 370px;
+    height: 50px;
+    top: 0;
+    right: 40px;
+}
+
+.box-cell-2 {
+    position: absolute;
+    border: solid 2px #5AF042;
+    width: 270px;
+    height: 40px;
+    top: 72px;
+    right: 40px;
+}
+
 @mixin glitchCopy { 
         content: attr(data-text);
         position: absolute;
@@ -106,9 +129,18 @@ skew to change the 'thickness' of the glitch.*/
 
 @media only screen and (min-width: 768px) {
     .home-title-wrapper {
-        position: absolute;
         width: auto !important;
         left: 50px;
-        bottom: 30px;
+    }
+
+    .home-logo {
+        opacity: .7;
+        padding: 6px;
+        background-color: #000;
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        width: 40px;
+        height: auto;
     }
 }
