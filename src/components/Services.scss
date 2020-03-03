@@ -42,13 +42,8 @@
 
 .services-image {
 	display: none;
-	width: 100%;
 }
 
-.services-image img {
-	width: 100%;
-	height: auto;
-}
 
 /* For desktop: */
 
@@ -71,5 +66,6 @@
 	.services-image {
 		display: block !important;
 		flex: 50%;
+		background-size: 100% auto !important;
 	}
 }

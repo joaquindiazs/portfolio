@@ -6,9 +6,8 @@
     margin-top: 20px
 }
 
-.about-image img {
-	width: 100%;
-	height: auto;
+.about-image {
+	display: none;
 }
 
 .about-description h2 {
@@ -32,7 +31,10 @@
 	}	
 
 	.about-image {
+		display: block;
 		flex: 50%;
+		width: 100%;
+		height: auto;
 	}
 
 	.about-description {

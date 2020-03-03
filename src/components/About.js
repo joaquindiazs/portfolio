@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import AboutUs from "../assets/img/about.jpg";
-import "./About.css";
+import "./About.scss";
 
 class About extends Component {
 	render() {
@@ -12,24 +12,25 @@ class About extends Component {
 						<h2>About</h2>
 					</div>
 					<div className="about-wrapper">
-						<div className="about-image">
-							<img src={AboutUs} alt="" />
-						</div>
+						<div
+							className="about-image"
+							style={{
+								backgroundImage: `linear-gradient(rgba(10,10,10,.4),rgba(0,0,0,.1)), repeating-linear-gradient(0, transparent, transparent 2px, black 3px, black 3px),url(${AboutUs})`
+							}}
+						></div>
 						<div className="about-description">
 							<p>
-								I'm Joaquin Diaz, a fullstack developer from
-								Argentina.
+								I'm Joaquin Diaz. Motivated, resourceful and thoughtful software developer from Mza.,Argentina.
 							</p>
 							<p>
-								As a well organized person, my objectives are
-								keep growing up, learning new things of interest
-								and stay always updated with the best practices
-								and technologies.
+								As a well organized person, my current
+								objectives are keep growing up and learn new
+								things of interest.
 							</p>
 							<p>
-								Based in Kassel- Germany, I'm interested in
-								working on ambitious projects with positive
-								people.
+								Living in Kassel- Germany, I'm providing
+								outsourcing services and looking to participate
+								in ambitious projects with positive people.
 							</p>
 							<h4>Professional Summary</h4>
 							<p>

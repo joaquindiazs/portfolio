@@ -46,14 +46,15 @@ aside .logo a {
 }
 
 aside .logo a span {
+    color: rgb(100,220,220);
+    letter-spacing: 1em;
     display: block;
     margin-top: 0px;
     text-align: center;
-    font-size: 13px;
+    font-size: 12px;
     text-transform: uppercase;
-    color: #cecece;
     font-weight: 400;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
 }
 
 .main-menu {
@@ -156,5 +157,9 @@ aside .logo a span {
         opacity: 1;
         width: 23%;
         max-width: none;
+    }
+
+    aside .logo a span {
+        font-size: 13px !important;
     }
 }

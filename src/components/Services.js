@@ -1,22 +1,21 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import ServicesImg from "../assets/img/services.jpg";
-import "./Services.css";
+import "./Services.scss";
 import ProjectVaypol from "../assets/img/project-vaypol.jpg";
 import ProjectEntreacequias from "../assets/img/project-entreacequias.jpg";
 
 class Services extends Component {
-	
 	render() {
 		const recentProjects = [
 			{
-				"project_id": 0,
+				project_id: 0,
 				url: ProjectEntreacequias,
 				name: "Entre Acequias - Complejo Sustentable",
 				created_at: "Dic 2019"
 			},
 			{
-				"project_id": 1,
+				project_id: 1,
 				url: ProjectVaypol,
 				name: "Vaypol",
 				created_at: "Jul 2018"
@@ -76,9 +75,12 @@ class Services extends Component {
 								</div>
 							</div>
 						</div>
-						<div className="services-image">
-							<img src={ServicesImg} alt="" />
-						</div>
+						<div
+							className="services-image"
+							style={{
+								backgroundImage: `linear-gradient(rgba(10,10,10,.4),rgba(0,0,0,.4)), repeating-linear-gradient(0, transparent, transparent 2px, black 3px, black 3px),url(${ServicesImg})`
+							}}
+						></div>
 					</div>
 				</div>
 				<div className="block-wrapper">

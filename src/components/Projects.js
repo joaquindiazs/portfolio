@@ -6,7 +6,7 @@ import ProjectMaple from "../assets/img/project-maple.jpg";
 import ProjectCleanlif from "../assets/img/project-cleanlif.jpg";
 import ProjectHigea from "../assets/img/project-higea.jpg";
 import ProjectLiceoRugbyClub from "../assets/img/project-liceorugbyclub.jpg";
-import "./Projects.css";
+import "./Projects.scss";
 
 class Projects extends Component {
 	// constructor(props) {
@@ -69,7 +69,7 @@ class Projects extends Component {
 			{
 				"project_id": 3,
 				url: ProjectHigea,
-				name: "Clínica Higea - Centro Gastroenterológico",
+				name: "Clínica Higea",
 				created_at: "Oct 2016"
 			},
 			{

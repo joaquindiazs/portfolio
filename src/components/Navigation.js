@@ -8,7 +8,7 @@ import Blog from "./Blog";
 import Contact from "./Contact";
 import Project from './Project'
 
-import "./Navigation.css";
+import "./Navigation.scss";
 
 class Navigation extends Component {
 	render() {

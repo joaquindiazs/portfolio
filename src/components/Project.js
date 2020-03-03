@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./Project.css";
+import "./Project.scss";
 import ProjectVaypol from "../assets/img/project-vaypol.jpg";
 import ProjectEntreacequias from "../assets/img/project-entreacequias.jpg";
 import ProjectMaple from "../assets/img/project-maple.jpg";
@@ -154,7 +154,7 @@ class Project extends Component {
 			{
 				project_id: 3,
 				url: ProjectHigea,
-				name: "Clínica Higea - Centro Gastroenterológico",
+				name: "Clínica Higea",
 				created_at: "Oct 2016",
 				client: "Agencia Maple",
 				link: "http://higea.com.ar/",

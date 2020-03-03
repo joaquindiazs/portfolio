@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 
-import "./App.css";
+import "./App.scss";
 
 class App extends Component {
 	constructor(props) {

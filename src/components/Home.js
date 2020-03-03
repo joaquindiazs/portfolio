@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import HomeImg from "../assets/img/home-image.png";
 
-import "./Home.css";
+import "./Home.scss";
 
 class Home extends Component {
 	render() {
@@ -9,7 +9,7 @@ class Home extends Component {
 			<div className="section-wrapper">
 				<div className="home-image" style={{ backgroundImage: `url(${HomeImg})` }}>
 					<div className="home-title-wrapper">
-						<h1 className="glitch">Web Development</h1>
+						<h1 className="glitch" data-text="Web Development">Web Development</h1>
 					</div>
 				</div>
 			</div>
