@@ -1,28 +1,21 @@
-.swiper-container {
-	background-color: #101010;
+.home-image {
+    background-color: #101010;
     height: 100vh;
     min-height: 560px;
     box-sizing: border-box;
-}
-
-.swiper-slide {
-	background-size: auto 100% !important;
+    position: relative;
+    background-size: auto 100% !important;
     background-repeat: no-repeat;
     background-position: 0 0 !important;
 }
 
-.swiper-pagination-bullet {
-    width: 16px;
-    height: 16px;
-}
-
-.slider-title-wrapper {
+.home-title-wrapper {
 	position: absolute;
 	bottom: 30px;
 	left: 50px;
 }
 
-.slider-title-wrapper h1 {
+.home-title-wrapper h1 {
 	font-size: 40px;
     line-height: 1.5;
     color: #fff;

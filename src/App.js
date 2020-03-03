@@ -19,6 +19,20 @@ class App extends Component {
 		});
 	}
 
+	componentDidMount() {
+	    window.addEventListener('scroll', this.handleScroll);
+	}
+
+	componentWillUnmount() {
+	    window.removeEventListener('scroll', this.handleScroll);
+	}
+
+	handleScroll = ((event) => {
+    	this.setState({
+	      condition: false
+	    });
+	})
+
 	render() {
 		return (
 			<div className="main-page-wrapper">

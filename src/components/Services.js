@@ -4,45 +4,10 @@ import ServicesImg from "../assets/img/services.jpg";
 import "./Services.css";
 import ProjectVaypol from "../assets/img/project-vaypol.jpg";
 import ProjectEntreacequias from "../assets/img/project-entreacequias.jpg";
+
 class Services extends Component {
-	// constructor(props) {
-	// 	super(props);
-	// 	this.state = {
-	// 		error: null,
-	// 		isLoaded: false,
-	// 		recentPojects: []
-	// 	};
-	// }
-
-	// componentDidMount() {
-	// 	fetch("http://localhost:3001/api/projects/recentProjects/")
-	// 		.then(res => res.json())
-	// 		.then(
-	// 			result => {
-	// 				this.setState({
-	// 					isLoaded: true,
-	// 					recentProjects: result
-	// 				});
-	// 			},
-	// 			// Note: it's important to handle errors here
-	// 			// instead of a catch() block so that we don't swallow
-	// 			// exceptions from actual bugs in components.
-	// 			error => {
-	// 				this.setState({
-	// 					isLoaded: true,
-	// 					error
-	// 				});
-	// 			}
-	// 		);
-	// }
-
+	
 	render() {
-		// const { error, isLoaded, recentProjects } = this.state;
-		// if (error) {
-		// 	return <div>Error: {error.message}</div>;
-		// } else if (!isLoaded) {
-		// 	return <div>Loading...</div>;
-		// } else {
 		const recentProjects = [
 			{
 				"project_id": 0,
@@ -144,7 +109,6 @@ class Services extends Component {
 			</div>
 		);
 	}
-	// }
 }
 
 export default Services;

@@ -41,6 +41,7 @@
 }
 
 .services-image {
+	display: none;
 	width: 100%;
 }
 
@@ -68,6 +69,7 @@
 	}
 
 	.services-image {
+		display: block !important;
 		flex: 50%;
 	}
 }
