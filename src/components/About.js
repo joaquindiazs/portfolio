@@ -20,10 +20,10 @@ class About extends Component {
 						></div>
 						<div className="about-description">
 							<p>
-								I'm Joaquin Diaz. Motivated, resourceful and thoughtful software developer from Mza.,Argentina.
+								I'm Joaquin Diaz. Resourceful and thoughtful software developer from Mza.,Argentina.
 							</p>
 							<p>
-								As a well organized person, my current
+								As a well motivated person, my current
 								objectives are keep growing up and learn new
 								things of interest.
 							</p>

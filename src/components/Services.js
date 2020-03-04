@@ -90,8 +90,8 @@ class Services extends Component {
 					</div>
 					<div className="gallery-wrapper">
 						{recentProjects.map((project, i) => (
-							<div className="item-wrapper" key={i}>
-								<img src={project.url} alt="text" />
+							<div className="item-wrapper item-image-container" key={i}>
+								<img src={project.url} alt="jdiazs" />
 								<div className="item-description">
 									<Link
 										to={`/projects/${project.project_id}`}

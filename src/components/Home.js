@@ -9,7 +9,10 @@ class Home extends Component {
 		return (
 			<div className="section-wrapper">
 				<div className="home-image" style={{ backgroundImage: `url(${HomeImg})` }}>
-					<img src={Logo} alt="" className="home-logo"/>
+					<div className="glitch-img" style={{ backgroundImage: `url(${Logo})` }}>
+						<div className="glitch-img-inner" style={{ backgroundImage: `url(${Logo})` }}></div>
+						<div className="glitch-img-inner-2"  style={{ backgroundImage: `url(${Logo})` }}></div>
+					</div>
 					<div className="home-title-wrapper">
 						<h1 className="glitch" data-text="Web Development">Web Development</h1>
 					</div>
