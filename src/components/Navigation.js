@@ -18,7 +18,7 @@ class Navigation extends Component {
 					<h1 className="logo">
 						<Link to={"/"}>
 							jdiazs
-							<span>From The Basement</span>
+							<span>From A Basement</span>
 						</Link>
 					</h1>
 					<nav className="main-menu">
