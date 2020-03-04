@@ -29,7 +29,7 @@ class About extends Component {
 							</p>
 							<p>
 								Living in Kassel- Germany, I'm providing
-								outsourcing services and looking to participate
+								outsourcing services and open to participate
 								in ambitious projects with positive people.
 							</p>
 							<h4>Professional Summary</h4>
