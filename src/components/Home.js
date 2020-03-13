@@ -13,11 +13,14 @@ class Home extends Component {
 						<div className="glitch-img-inner" style={{ backgroundImage: `url(${Logo})` }}></div>
 						<div className="glitch-img-inner-2"  style={{ backgroundImage: `url(${Logo})` }}></div>
 					</div>
-					<div className="home-title-wrapper">
-						<h1 className="glitch" data-text="Web Development">Web Development</h1>
+					<div className="glitch-img">
+						<h1 className="glitch-img-inner" data-text="Web Development">Web Development</h1>
+						<h1 className="glitch-img-inner-2" data-text="Web Development">Web Development</h1>
 					</div>
+					{/*
 					<div className="box-cell-1">&nbsp;</div>
 					<div className="box-cell-2">&nbsp;</div>
+					*/}
 				</div>
 			</div>
 		);
